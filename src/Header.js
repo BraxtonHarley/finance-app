@@ -19,11 +19,10 @@ function Header() {
             </div>
 
             <div className="headerNav">
-                
                 {/* HOME PAGE */}
                 <Link to="/" className="header__link">
                     <div className="header__option">
-                        <span className="header__optionLineOne">Hello Client</span>
+                        <span className="header__optionLineOne">View</span>
                         <span  className="header__optionLineTwo">Home</span>
                     </div>           
                 </Link>

@@ -2,6 +2,9 @@ import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from './Header';
+import Home from './Home';
+import Commontary from "./Commontary";
+import Stocks from "./Stocks";
 
 function App() {
   return (
@@ -11,17 +14,17 @@ function App() {
           
           <Route path="/commontary">
             <Header />
-            <h1>Commontary One</h1>
+            <Commontary />
           </Route>
 
-          <Route path="/main">
+          <Route path="/stocks">
             <Header />
-            <h1>Main . HTML</h1>
+            <Stocks />
           </Route>
 
           <Route path="/">
            <Header />
-           <h1>Home!</h1>
+           <Home />
           </Route>
 
         </Switch>
