@@ -36,7 +36,7 @@
 .header__searchIcon {
     padding: 5px;
     height: 22px !important;
-    background-color: darkgray;
+    color: white;
 }
 
 .header__option {

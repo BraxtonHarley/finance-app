@@ -5,9 +5,10 @@ function Stocks() {
     return (
         <div className="stocks">
             <img 
-                className="stocks_image"
+                className="stocks__image"
                 alt=""
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTICFVHxkv9op40joRiao7Yq7ZelY39t37MQ&usqp=CAU" />
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO5xp5-X2MHgZD3uGrAuVhhyUwJQz91gb5fA&usqp=CAU" />
+            <h1>Stocks</h1>
         </div>
     )
 }

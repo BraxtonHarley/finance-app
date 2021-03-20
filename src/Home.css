@@ -11,4 +11,37 @@
 
 }
 
+.home__text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.home__choices {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home__commontaryBox {
+    border: 1px solid black;
+    height: 300px;
+    width: 50%;
+}
+
+.home__stocksBox {
+    border: 1px solid black;
+    height: 300px;
+    width: 50%;
+}
+
+.home__stocksBoxText {
+    display: flex;
+    justify-content: center;
+}
+
+.home__commontaryBoxText {
+    display: flex;
+    justify-content: center;
+}
+
 
