@@ -35,8 +35,8 @@ function Header() {
                     </div>           
                 </Link>
 
-                {/* MAIN . HTML */}
-                <Link to="/main" className="header__link">
+                {/* STOCKS */}
+                <Link to="/stocks" className="header__link">
                     <div className="header__option">
                         <span className="header__optionLineOne">View</span>
                         <span className="header__optionLineTwo">Stocks</span>

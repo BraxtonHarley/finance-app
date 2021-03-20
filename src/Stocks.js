@@ -7,10 +7,9 @@ function Stocks() {
             <img 
                 className="stocks_image"
                 alt=""
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHpVFq0m_Zx9YdaRYUeJVTbjEFtaHX54p_Xw&usqp=CAU" />
-            
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTICFVHxkv9op40joRiao7Yq7ZelY39t37MQ&usqp=CAU" />
         </div>
     )
 }
 
-export default Stocks
+export default Stocks;
